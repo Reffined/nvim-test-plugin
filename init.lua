@@ -1,1 +1,3 @@
-vim.g.test_plug_util = require("window_utils")
+local util = require("window_utils")
+
+vim.g.test_print = util.print()

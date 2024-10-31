@@ -1,5 +1,5 @@
-local utils = {}
-
-function utils.print(arg)
-	print(arg)
-end
+return {
+	print = function()
+		print("WTF")
+	end,
+}
