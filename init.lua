@@ -1,1 +1,3 @@
-print("Hello Plugin")
+TestPlug = {}
+
+TestPlug.utils = require("window_utils")
