@@ -1,3 +1,1 @@
-TestPlug = {}
-
-TestPlug.utils = require("window_utils")
+vim.g.test_plug_util = require("window_utils")
