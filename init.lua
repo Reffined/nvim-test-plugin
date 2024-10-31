@@ -1,3 +1,5 @@
-local util = require("window_utils")
-
-vim.g.test_print = util.print()
+local M = {}
+function M.setup()
+	M.test_print = print
+end
+return M
