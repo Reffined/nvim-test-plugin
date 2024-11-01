@@ -1,5 +1,7 @@
 local M = {}
 function M.setup()
-	M.test_print = print
+	print("pls work :(")
 end
+
+print("pls work")
 return M
