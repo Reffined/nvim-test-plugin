@@ -1,7 +1,6 @@
 local M = {}
-function M.setup()
+function M.setup(opts)
 	print("pls work :(")
 end
-
-print("pls work")
+print("wierd")
 return M
